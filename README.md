@@ -28,9 +28,13 @@ pip3 install gdown
 ```
 ## Download Data
 Please follow the instructions and sign the agreements in this [**link**](https://dlr-rm.github.io/BlenderProc/examples/datasets/front_3d/README.html?msclkid=f7bd359dc76411eca640dbcac3538f68) before downloading any files related to [**3D-FRONT dataset**](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset).  
+
+
 ## Generating IRs using the trained model
 
-Download the trained model, sample 3D indoor envrionemnt meshes from [**3D-FRONT dataset**](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset), and sample source receiver paths files.
+Codes are available inside **evaluate** folder.
+
+Download the trained model, sample 3D indoor envrionemnt meshes from [**3D-FRONT dataset**](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset), and sample source receiver paths files. Note that we show a demo with only 5 different meshes. You can download more than 6000 3D indoor scene meshes using the following [**link**](https://dlr-rm.github.io/BlenderProc/examples/datasets/front_3d/README.html?msclkid=f7bd359dc76411eca640dbcac3538f68). 
 
 ```
 source download_files.sh
@@ -63,7 +67,31 @@ python3 evaluate.py
 You can find generated IRs inside the **Output** folder.
 
 
+## Train MESH2IR
+
+Codes are available inside **train** folder.
+
+Download the **GWA data**(https://gamma.umd.edu/researchdirections/sound/gwa) for 100 different meshes using the following command. Note that this is a subset of data that is used to train MESH2IR. You can get the full dataset using the following **link**(https://gamma.umd.edu/researchdirections/sound/gwa). You need to get 3D-FRONT license before downloading using this [**link**](https://dlr-rm.github.io/BlenderProc/examples/datasets/front_3d/README.html?msclkid=f7bd359dc76411eca640dbcac3538f68).
+
+```
+source download_data.sh
+```
+
+Generate embedding with mesh paths, IR paths and source-receiver locations using the following command
+
+```
+python3 embed_generator.py
+```
+
+To train **MESH2IR**, go inside **MESH2IR** folder and run the following command
+
+```
+python3 main.py --cfg cfg/RIR_s1.yml --gpu 0,1
+```
 
 
+To train **MESH2IR-D-EDR**, go inside **MESH2IR-D-EDR** folder and run the following command
 
-
+```
+python3 main.py --cfg cfg/RIR_s1.yml --gpu 0,1
+```
