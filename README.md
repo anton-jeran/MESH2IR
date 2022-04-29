@@ -96,6 +96,8 @@ To train **MESH2IR-D-EDR**, go inside **MESH2IR-D-EDR** folder and run the follo
 python3 main.py --cfg cfg/RIR_s1.yml --gpu 0,1
 ```
 
+Trained models will be available inside **train/output/** folder
+
 ## Citations
 
 If you use our **MESH2IR** for your research, please consider citing
