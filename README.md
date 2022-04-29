@@ -27,9 +27,9 @@ pip3 install pyyaml==5.4.1
 
 Download the trained model, sample 3D indoor envrionemnt meshes from [**3D-FRONT dataset**](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset), and sample source receiver paths files.
 
-''''
+```
 source download_files.sh
-'''
+```
 
 
 
