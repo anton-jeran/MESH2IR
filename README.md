@@ -71,7 +71,7 @@ You can find generated IRs inside the **Output** folder.
 
 Codes are available inside **train** folder.
 
-Download the **GWA data**(https://gamma.umd.edu/researchdirections/sound/gwa) for 100 different meshes using the following command. Note that this is a subset of data that is used to train MESH2IR. You can get the full dataset using the following **link**(https://gamma.umd.edu/researchdirections/sound/gwa). You need to get 3D-FRONT license before downloading using this [**link**](https://dlr-rm.github.io/BlenderProc/examples/datasets/front_3d/README.html?msclkid=f7bd359dc76411eca640dbcac3538f68).
+Download the **GWA dataset**(https://gamma.umd.edu/researchdirections/sound/gwa) for 100 different meshes using the following command. Note that this is a subset of data that is used to train MESH2IR. You can get the full dataset using the following **link**(https://gamma.umd.edu/researchdirections/sound/gwa). You need to get 3D-FRONT license before downloading using this [**link**](https://dlr-rm.github.io/BlenderProc/examples/datasets/front_3d/README.html?msclkid=f7bd359dc76411eca640dbcac3538f68).
 
 ```
 source download_data.sh
@@ -94,4 +94,53 @@ To train **MESH2IR-D-EDR**, go inside **MESH2IR-D-EDR** folder and run the follo
 
 ```
 python3 main.py --cfg cfg/RIR_s1.yml --gpu 0,1
+```
+
+## Citations
+
+If you use our **MESH2IR** for your research, please consider citing
+
+```
+@article{ratnarajah2021fast,
+  title={FAST-RIR: Fast neural diffuse room impulse response generator},
+  author={Ratnarajah, Anton and Zhang, Shi-Xiong and Yu, Meng and Tang, Zhenyu and Manocha, Dinesh and Yu, Dong},
+  journal={arXiv preprint arXiv:2110.04057},
+  year={2021}
+}
+```
+
+Our work is inspired by [**FAST-RIR**](https://arxiv.org/pdf/2110.04057.pdf).
+
+```
+@article{ratnarajah2021fast,
+  title={FAST-RIR: Fast neural diffuse room impulse response generator},
+  author={Ratnarajah, Anton and Zhang, Shi-Xiong and Yu, Meng and Tang, Zhenyu and Manocha, Dinesh and Yu, Dong},
+  journal={arXiv preprint arXiv:2110.04057},
+  year={2021}
+}
+```
+
+If you use 3D indoor scenes from [**3D-FRONT dataset**](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset), please cite
+
+```
+ @inproceedings{fu20213d,
+      title={3d-front: 3d furnished rooms with layouts and semantics},
+      author={Fu, Huan and Cai, Bowen and Gao, Lin and Zhang, Ling-Xiao and Wang, Jiaming and Li, Cao and Zeng, Qixun and Sun, Chengyue and Jia, Rongfei and Zhao, Binqiang and others},
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+      pages={10933--10942},
+      year={2021}
+    }
+```
+
+If you use **GWA dataset**(https://gamma.umd.edu/researchdirections/sound/gwa) to train our model, please cite
+
+```
+@misc{tang2022gwa,
+      title={GWA: A Large Geometric-Wave Acoustic Dataset for Audio Deep Learning}, 
+      author={Zhenyu Tang and Rohith Aralikatti and Anton Ratnarajah and and Dinesh Manocha},
+      year={2022},
+      eprint={2204.01787},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD}
+}
 ```
