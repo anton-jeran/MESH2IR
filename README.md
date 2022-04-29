@@ -71,7 +71,7 @@ You can find generated IRs inside the **Output** folder.
 
 Codes are available inside **train** folder.
 
-Download the **GWA dataset**(https://gamma.umd.edu/researchdirections/sound/gwa) for 100 different meshes using the following command. Note that this is a subset of data that is used to train MESH2IR. You can get the full dataset using the following **link**(https://gamma.umd.edu/researchdirections/sound/gwa). You need to get 3D-FRONT license before downloading using this [**link**](https://dlr-rm.github.io/BlenderProc/examples/datasets/front_3d/README.html?msclkid=f7bd359dc76411eca640dbcac3538f68).
+Download the [**GWA dataset**](https://gamma.umd.edu/researchdirections/sound/gwa) for 100 different meshes using the following command. Note that this is a subset of data that is used to train MESH2IR. You can get the full dataset using the following [**link**](https://gamma.umd.edu/researchdirections/sound/gwa). You need to get 3D-FRONT license before downloading using this [**link**](https://dlr-rm.github.io/BlenderProc/examples/datasets/front_3d/README.html?msclkid=f7bd359dc76411eca640dbcac3538f68).
 
 ```
 source download_data.sh
@@ -132,7 +132,7 @@ If you use 3D indoor scenes from [**3D-FRONT dataset**](https://tianchi.aliyun.c
     }
 ```
 
-If you use **GWA dataset**(https://gamma.umd.edu/researchdirections/sound/gwa) to train our model, please cite
+If you use [**GWA dataset**](https://gamma.umd.edu/researchdirections/sound/gwa) to train our model, please cite
 
 ```
 @misc{tang2022gwa,
