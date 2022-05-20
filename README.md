@@ -114,11 +114,11 @@ If you use our **MESH2IR** for your research, please consider citing
 Our work is inspired by [**FAST-RIR**](https://arxiv.org/pdf/2110.04057.pdf).
 
 ```
-@article{ratnarajah2021fast,
-  title={FAST-RIR: Fast neural diffuse room impulse response generator},
-  author={Ratnarajah, Anton and Zhang, Shi-Xiong and Yu, Meng and Tang, Zhenyu and Manocha, Dinesh and Yu, Dong},
-  journal={arXiv preprint arXiv:2110.04057},
-  year={2021}
+@article{ratnarajah2022mesh2ir,
+  title={MESH2IR: Neural Acoustic Impulse Response Generator for Complex 3D Scenes},
+  author={Anton Ratnarajah and Zhenyu Tang and Rohith Chandrashekar Aralikatti and Dinesh Manocha},
+  journal={arXiv preprint arXiv:2205.09248},
+  year={2022}
 }
 ```
 
