@@ -103,22 +103,22 @@ Trained models will be available inside **train/output/** folder
 If you use our **MESH2IR** for your research, please consider citing
 
 ```
-@article{ratnarajah2021fast,
-  title={FAST-RIR: Fast neural diffuse room impulse response generator},
-  author={Ratnarajah, Anton and Zhang, Shi-Xiong and Yu, Meng and Tang, Zhenyu and Manocha, Dinesh and Yu, Dong},
-  journal={arXiv preprint arXiv:2110.04057},
-  year={2021}
+@article{ratnarajah2022mesh2ir,
+  title={MESH2IR: Neural Acoustic Impulse Response Generator for Complex 3D Scenes},
+  author={Ratnarajah, Anton and Tang, Zhenyu and Aralikatti, Rohith Chandrashekar and Manocha, Dinesh},
+  journal={arXiv preprint arXiv:2205.09248},
+  year={2022}
 }
 ```
 
 Our work is inspired by [**FAST-RIR**](https://arxiv.org/pdf/2110.04057.pdf).
 
 ```
-@article{ratnarajah2022mesh2ir,
-  title={MESH2IR: Neural Acoustic Impulse Response Generator for Complex 3D Scenes},
-  author={Anton Ratnarajah and Zhenyu Tang and Rohith Chandrashekar Aralikatti and Dinesh Manocha},
-  journal={arXiv preprint arXiv:2205.09248},
-  year={2022}
+@article{ratnarajah2021fast,
+  title={FAST-RIR: Fast neural diffuse room impulse response generator},
+  author={Ratnarajah, Anton and Zhang, Shi-Xiong and Yu, Meng and Tang, Zhenyu and Manocha, Dinesh and Yu, Dong},
+  journal={arXiv preprint arXiv:2110.04057},
+  year={2021}
 }
 ```
 
@@ -137,12 +137,10 @@ If you use 3D indoor scenes from [**3D-FRONT dataset**](https://tianchi.aliyun.c
 If you use [**GWA dataset**](https://gamma.umd.edu/researchdirections/sound/gwa) to train our model, please cite
 
 ```
-@misc{tang2022gwa,
-      title={GWA: A Large Geometric-Wave Acoustic Dataset for Audio Deep Learning}, 
-      author={Zhenyu Tang and Rohith Aralikatti and Anton Ratnarajah and and Dinesh Manocha},
-      year={2022},
-      eprint={2204.01787},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD}
+@article{tang2022gwa,
+  title={GWA: A Large High-Quality Acoustic Dataset for Audio Processing},
+  author={Tang, Zhenyu and Aralikatti, Rohith and Ratnarajah, Anton and Manocha, Dinesh},
+  journal={arXiv preprint arXiv:2204.01787},
+  year={2022}
 }
 ```
