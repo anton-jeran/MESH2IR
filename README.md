@@ -24,6 +24,7 @@ pip3 install pyyaml==5.4.1
 pip3 install pymeshlab
 pip install openmesh
 pip3 install gdown
+pip3 install matplotlib
 
 ```
 Please note that, in the above requirements we intalled and tested on cupy library and torch-geometric library compbatible with CUDAv10.2. For different CUDA version, you can find the appropiate installation commands here.
