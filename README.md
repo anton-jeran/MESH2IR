@@ -3,6 +3,8 @@
 This is the official implementation of our mesh-based neural network ([**MESH2IR**](https://arxiv.org/pdf/2205.09248.pdf)) to generate acoustic impulse responses (IRs) for indoor 3D scenes represented
 using a mesh. Our Neural Sound Rendering results is available [**here**](https://anton-jeran.github.io/M2IR/).
 
+**NEWS: We release MULTI-CHANNEL MULTI-SPEAKER MULTI-SPATIAL AUDIO CODEC. The official code of our network [**M3-AUDIODEC**](https://github.com/anton-jeran/MULTI-AUDIODEC) is available.** 
+
 ## Requirements
 
 ```
