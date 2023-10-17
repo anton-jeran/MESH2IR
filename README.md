@@ -75,6 +75,12 @@ Generate IRs corresponds to each embedding files inside **Embeddings** folder us
 python3 evaluate.py
 ```
 
+To generate Multi_Channel IRs for Custom Microphone array. Open **evaluate_array.py**, specify your custom array geometry in **Line 100** (In our example script we have provided a custom six-channel array) and run the following command.
+```
+python3 evaluate_array.py
+```
+
+
 You can find generated IRs inside the **Output** folder.
 
 
