@@ -76,6 +76,18 @@ Generate IRs corresponds to each embedding files inside **Embeddings** folder us
 python3 evaluate.py
 ```
 
+## Auralize
+
+To create auralize 3 muted videos provided inside **evaluate/Video**, run the following commands
+
+```
+python3 auralize.py
+./make_videos.sh
+```
+
+The three auralized videos can be found inside **evaluate/Output**
+
+
 To generate Multi_Channel IRs for Custom Microphone array. Open **evaluate_array.py**, specify your custom array geometry in **Line 100** (In our example script we have provided a custom six-channel array) and run the following command.
 ```
 python3 evaluate_array.py
