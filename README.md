@@ -87,7 +87,7 @@ python3 auralize.py
 
 The three auralized videos can be found inside **evaluate/Output**
 
-
+## Multi_Channel IRs
 To generate Multi_Channel IRs for Custom Microphone array. Open **evaluate_array.py**, specify your custom array geometry in **Line 100** (In our example script we have provided a custom six-channel array) and run the following command.
 ```
 python3 evaluate_array.py
