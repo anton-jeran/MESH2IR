@@ -1,0 +1,14 @@
+{
+    "camera_path": "embeddings_2.csv",    
+    "sources": [
+        {
+            "name": "S1",
+            "audio": "Sounds/looperman-a-0311068-0002060-kawaiikombat-you-are-my-sunshine.mp3",
+            "xyz": [
+                -1.1431,
+                1.9,
+                -11.9291
+            ]
+        }
+    ]
+}

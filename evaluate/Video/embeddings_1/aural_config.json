@@ -1,0 +1,23 @@
+{
+    "camera_path": "embeddings_1.csv",
+    "sources": [
+        {
+            "name": "S3",
+            "audio": "Sounds/infinitely.ogg",
+            "xyz": [
+                -2.3482,
+                1.9,
+                2.6915
+            ]
+        },
+        {
+            "name": "S5",
+            "audio": "Sounds/machinery.ogg",
+            "xyz": [
+                4.6518,
+                1.9,
+                2.6915
+            ]
+        }
+    ]
+}

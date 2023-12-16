@@ -1,0 +1,24 @@
+{
+    "camera_path": "embeddings_0.csv",
+    "sources": [
+        {
+            "name": "S3",
+            "audio": "Sounds/canon.ogg",
+            "xyz": [
+                -1.056,
+                1.9,
+                -2.7844
+            ]
+        },
+        {
+            "name": "S4",
+            "audio": "Sounds/telephone.ogg",
+	    "volume": 0.25,
+            "xyz": [
+                1.944,
+                0.9,
+                0.2156
+            ]
+        }
+    ]
+}
