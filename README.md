@@ -70,7 +70,7 @@ Generate embedding with different receiver and source locations for a three diff
 python3 embed_generator.py
 ```
 
-Generate IRs corresponds to each embedding files inside **Embeddings** folder using the following command.
+Generate IRs corresponding to each embedding file inside **Embeddings** folder using the following command.
 
 ```
 python3 evaluate.py
