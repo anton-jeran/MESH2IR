@@ -37,6 +37,7 @@ Please note that, in the above requirements we intalled and tested on cupy libra
 2) https://docs.cupy.dev/en/stable/install.html
 
 ```
+**Note** - If you have issues with loading the trained model, downgrade torch-geometric (**pip3 install torch-geometric==2.1.0**)
 
 ## Download Data
 Please follow the instructions and sign the agreements in this [**link**](https://dlr-rm.github.io/BlenderProc/examples/datasets/front_3d/README.html?msclkid=f7bd359dc76411eca640dbcac3538f68) before downloading any files related to [**3D-FRONT dataset**](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset).  
